@@ -1,0 +1,36 @@
+.relative{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: sticky;
+    top: 0;
+    
+}
+.icon{
+    font-size: 35px;
+    position: fixed;
+    top: 500px;
+    left: 1000px;
+}
+.icon:hover{
+    background-color: lightpink;
+    padding: 5px;
+    border-radius: 50%;
+}
+.ansse{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: yellow;
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
